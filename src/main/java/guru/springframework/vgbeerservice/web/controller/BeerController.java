@@ -1,7 +1,6 @@
 package guru.springframework.vgbeerservice.web.controller;
 
 import guru.springframework.vgbeerservice.web.model.BeerDto;
-import org.apache.coyote.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
