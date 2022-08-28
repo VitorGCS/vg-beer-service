@@ -27,11 +27,13 @@ class BeerControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
-/*    @Autowired
+    @Autowired
     ObjectMapper objectMapper;
 
+/*
     @MockBean
-    BeerService beerService;*/
+    BeerService beerService;
+*/
 
     @Test
     void getBeerById() throws Exception {
@@ -39,7 +41,7 @@ class BeerControllerTest {
                 .andExpect(status().isOk());
     }
 
- /*   @Test
+/*    @Test
     void saveNewBeer() throws Exception {
 
         BeerDto beerDto = getValidBeerDto();
