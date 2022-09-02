@@ -1,8 +1,6 @@
 package guru.springframework.vgbeerservice.services;
 
 import guru.springframework.vgbeerservice.web.model.BeerDto;
-
-
 import java.util.UUID;
 
 public interface BeerService {

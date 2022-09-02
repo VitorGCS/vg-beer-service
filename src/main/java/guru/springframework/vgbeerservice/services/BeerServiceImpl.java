@@ -8,7 +8,6 @@ import guru.springframework.vgbeerservice.web.model.BeerDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-
 import java.util.UUID;
 
 @RequiredArgsConstructor
