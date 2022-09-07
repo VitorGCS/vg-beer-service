@@ -24,6 +24,5 @@ public class BeerLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         //using data.sql file now
-        //   loadBeerObjects();
     }
 }
