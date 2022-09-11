@@ -17,6 +17,6 @@ class BeerInventoryServiceRestTemplateImplTest {
     void getOnhandInventory() {
         Integer goh = beerInventoryService.getOnhandInventory(BeerLoader.BEER_1_UPC);
 
-        System.out.println("##########################################Number of beers/inventory: " + goh);
+        System.out.println("\n\nNumber of beers/inventory: " + goh);
     }
 }
