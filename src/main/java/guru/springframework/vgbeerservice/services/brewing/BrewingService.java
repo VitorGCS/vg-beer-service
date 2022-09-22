@@ -32,9 +32,9 @@ public class BrewingService {
                 log.debug("Min Onhand is: "+beer.getMinOnHand());
                 log.debug("Inventory is: "+invQOH);
 
-                if(beer.getMinOnHand() >= invQOH){
+                //if(beer.getMinOnHand() >= invQOH){
                     jmsTemplate.convertAndSend(JmsConfig.BREWING_REQUEST_QUEUE, new BrewBeerEvent(beerMapper.beerToBeerDto(beer)));
-                }
+                //}
             });
     }
 }
