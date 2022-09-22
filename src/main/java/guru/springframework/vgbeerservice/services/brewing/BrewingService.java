@@ -1,4 +1,4 @@
-package guru.springframework.vgbeerservice.services;
+package guru.springframework.vgbeerservice.services.brewing;
 
 import guru.springframework.vgbeerservice.config.JmsConfig;
 import guru.springframework.vgbeerservice.domain.Beer;
