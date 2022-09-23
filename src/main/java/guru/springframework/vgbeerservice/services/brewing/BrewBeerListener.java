@@ -2,8 +2,8 @@ package guru.springframework.vgbeerservice.services.brewing;
 
 import guru.springframework.vgbeerservice.config.JmsConfig;
 import guru.springframework.vgbeerservice.domain.Beer;
-import guru.springframework.vgbeerservice.events.BrewBeerEvent;
-import guru.springframework.vgbeerservice.events.NewInventoryEvent;
+import guru.sfg.common.events.BrewBeerEvent;
+import guru.sfg.common.events.NewInventoryEvent;
 import guru.springframework.vgbeerservice.repositories.BeerRepository;
 import guru.springframework.vgbeerservice.web.model.BeerDto;
 import lombok.RequiredArgsConstructor;

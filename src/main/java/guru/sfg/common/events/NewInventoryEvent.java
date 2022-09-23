@@ -1,4 +1,4 @@
-package guru.springframework.vgbeerservice.events;
+package guru.sfg.common.events;
 
 import guru.springframework.vgbeerservice.web.model.BeerDto;
 import lombok.NoArgsConstructor;
