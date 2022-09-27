@@ -2,13 +2,11 @@ package guru.springframework.vgbeerservice.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import guru.springframework.vgbeerservice.bootstrap.BeerLoader;
-import guru.springframework.vgbeerservice.domain.Beer;
 import guru.springframework.vgbeerservice.services.BeerService;
-import guru.springframework.vgbeerservice.web.model.BeerDto;
-import guru.springframework.vgbeerservice.web.model.BeerStyleEnum;
+import guru.sfg.brewery.model.BeerDto;
+import guru.sfg.brewery.model.BeerStyleEnum;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;

@@ -2,7 +2,7 @@ package guru.springframework.vgbeerservice.bootstrap;
 
 import guru.springframework.vgbeerservice.domain.Beer;
 import guru.springframework.vgbeerservice.repositories.BeerRepository;
-import guru.springframework.vgbeerservice.web.model.BeerStyleEnum;
+import guru.sfg.brewery.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
